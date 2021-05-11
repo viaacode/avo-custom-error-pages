@@ -1,2 +1,6 @@
-# avo-custom-error-pages
-Custom error pages for 5xx e.g. maintenance and service unavailable
+# meemoo Maintenance Page
+
+## Build with parcel ##
+
+* `npm run build`
+* **Output file:** dist/index.html
