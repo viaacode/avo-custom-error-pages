@@ -1,0 +1,32 @@
+{
+  "name": "maintenance_page-slicing-2021",
+  "version": "1.0.0",
+  "description": "meemoo Maintenance page.",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel \"./src/index.html\"",
+    "build": "dotenv parcel build --public-url . \"./src/index.html\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/studiohyperdrive/projects/viaa/maintenance_page-slicing-2021.git"
+  },
+  "author": "Fabian Meul<fabian.meul@studiohyperdrive.be>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/studiohyperdrive/projects/viaa/maintenance_page-slicing-2021/issues"
+  },
+  "homepage": "https://gitlab.com/studiohyperdrive/projects/viaa/maintenance_page-slicing-2021#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "dotenv": "^5.0.1",
+    "dotenv-cli": "^4.0.0",
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-inliner": "^1.0.16",
+    "parcel-plugin-url-loader": "^1.3.1"
+  },
+  "dependencies": {
+    "sass": "^1.32.12"
+  }
+}
